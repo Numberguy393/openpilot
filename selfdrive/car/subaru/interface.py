@@ -115,6 +115,7 @@ class CarInterface(CarInterfaceBase):
       ret.wheelbase = 2.67
       ret.centerToFront = ret.wheelbase * 0.5
       ret.steerRatio = 20           # learned, 14 stock
+      ret.steerActuatorDelay = 0.15 # copied from LEGACY_PREGLOBAL
     else:
       raise ValueError(f"unknown car: {candidate}")
 
