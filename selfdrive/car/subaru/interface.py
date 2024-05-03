@@ -111,8 +111,8 @@ class CarInterface(CarInterfaceBase):
       ret.steerActuatorDelay = 0.15
 
     elif candidate == CAR.OUTBACK_PREGLOBAL:
-      ret.mass = 1614
-      ret.wheelbase = 2.74
+      ret.mass = 1568
+      ret.wheelbase = 2.67
       ret.centerToFront = ret.wheelbase * 0.5
       ret.steerRatio = 20           # learned, 14 stock
       ret.steerActuatorDelay = 0.15
